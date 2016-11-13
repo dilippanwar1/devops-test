@@ -1,3 +1,10 @@
+require 'simplecov'
+require 'simplecov-rcov'
+SimpleCov.formatters = [
+  SimpleCov::Formatter::HTMLFormatter,
+  SimpleCov::Formatter::RcovFormatter
+]
+SimpleCov.start
 require 'rack/test'
 require_relative '../app.rb'
 ENV['RACK_ENV'] = 'test'

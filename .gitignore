@@ -18,7 +18,8 @@
 #MAC files
 .DS_Store
 
-#Ignore dynamicically generated hidden files
+#Ignore dynamicically generated files
 Gemfile.lock
 .rspec
+/coverage/*
 
