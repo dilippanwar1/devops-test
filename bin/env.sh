@@ -11,5 +11,6 @@ rvm gemset use sinatra230
 gem install sinatra --no-ri --no-doc
 gem install bundle --no-ri --no-doc
 gem install rspec --no-ri --no-doc
+cd ..
 rspec spec/app_spec.rb
 #rackup config.ru --port 8080
